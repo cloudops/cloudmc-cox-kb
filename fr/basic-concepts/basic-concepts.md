@@ -1,3 +1,0 @@
----
-name: Concepts de base
----

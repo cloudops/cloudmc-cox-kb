@@ -1,3 +1,0 @@
----
-name: Guía para revendedores
----

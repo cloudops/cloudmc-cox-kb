@@ -1,3 +1,0 @@
----
-name: Servicio de GCP
----
