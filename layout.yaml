@@ -12,7 +12,7 @@ categories:
       - environments-to-organize-workloads-and-users.md
       - main-cloudmc-entities.md
       - what-is-a-vpc.md
-      - what-is-object-storage.md
+#      - what-is-object-storage.md
       - authentication.md
 - category: reseller
   icon: fa fa-handshake-o
@@ -21,48 +21,48 @@ categories:
 #      - guide-for-resellers.md
       - custom-domains.md
       - manage-kb.md
-- category: cloudstack-compute-service
-  icon: fa fa-cloud
-  articles:
-      - working-with-instances.md
-      - add-storage-to-instance.md
-      - working-with-ssh-keys.md
-      - configure-load-balancing.md
-      - configure-port-forwarding.md
-      - securing-your-network.md
-      - working-with-vpcs.md
-      - working-with-cloudstack-compute-apis.md
-      - working-with-snapshots.md
-      - working-with-instance-templates.md
-- category: gcp-compute-service
-  icon: fa fa-cloud
-  articles:
-      - gcp-working-with-instances.md
-      - gcp-working-with-disks.md
-      - gcp-instance-groups.md
-      - gcp-health-check.md
-      - gcp-ssl-certs.md
-      - gcp-load-balancing.md
-- category: azure-compute-service
-  icon: fa fa-cloud
-  articles:
-      - azure-working-with-instances.md
-      - azure-working-with-disks.md
+#- category: cloudstack-compute-service
+#  icon: fa fa-cloud
+#  articles:
+#      - working-with-instances.md
+#      - add-storage-to-instance.md
+#      - working-with-ssh-keys.md
+#      - configure-load-balancing.md
+#      - configure-port-forwarding.md
+#      - securing-your-network.md
+#      - working-with-vpcs.md
+#      - working-with-cloudstack-compute-apis.md
+#      - working-with-snapshots.md
+#      - working-with-instance-templates.md
+#- category: gcp-compute-service
+#  icon: fa fa-cloud
+#  articles:
+#      - gcp-working-with-instances.md
+#      - gcp-working-with-disks.md
+#      - gcp-instance-groups.md
+#      - gcp-health-check.md
+#      - gcp-ssl-certs.md
+#      - gcp-load-balancing.md
+#- category: azure-compute-service
+#  icon: fa fa-cloud
+#  articles:
+#      - azure-working-with-instances.md
+#      - azure-working-with-disks.md
 - category: stackpath-service
   icon: fa fa-cloud
   articles:
       - stackpath-overview-workloads.md
       - stackpath-managing-workloads.md
 #      - stackpath-working-with-instances.md
-- category: object-storage-service
-  icon: fa fa-hdd-o
-  articles:
-      - object-storage-terminology.md
-      - use-s3-api-for-object-storage.md
-      - how-to-obtain-object-storage-api-credentials.md
-      - manage-my-objects-using-the-swift-command-line-client.md
-      - manage-my-objects-using-the-object-storage-api.md
-      - manage-my-objects-using-the-self-service-portal.md
+#- category: object-storage-service
+#  icon: fa fa-hdd-o
+#  articles:
+#      - object-storage-terminology.md
+#      - use-s3-api-for-object-storage.md
+#      - how-to-obtain-object-storage-api-credentials.md
+#      - manage-my-objects-using-the-swift-command-line-client.md
+#      - manage-my-objects-using-the-object-storage-api.md
+#      - manage-my-objects-using-the-self-service-portal.md
 - category: reporting
   icon: fa fa-signal
   articles:
@@ -83,17 +83,17 @@ categories:
 - category: how-to
   icon: fa fa-question
   articles:
-      - create-site-to-site-vpn-on-vpc.md
+#      - create-site-to-site-vpn-on-vpc.md
       - install-and-config-cloudmonkey.md
       - kernel-upgrade-on-ubuntu-debian.md
-      - move-instance-to-different-vpc.md
+#      - move-instance-to-different-vpc.md
       - force-reboot-an-instance.md
-- category: automation
-  icon: fa fa-retweet
-  articles:
-      - deploy-virtual-machine-using-terraform.md
-      - deploy-virtual-machine-using-cloudmonkey.md
-      - deploy-a-kubernetes-cluster-with-rancher-2-x.md
+#- category: automation
+#  icon: fa fa-retweet
+#  articles:
+#      - deploy-virtual-machine-using-terraform.md
+#      - deploy-virtual-machine-using-cloudmonkey.md
+#      - deploy-a-kubernetes-cluster-with-rancher-2-x.md
 - category: vpn
   icon: fa fa-shield
   articles:
