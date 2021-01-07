@@ -11,7 +11,7 @@ categories:
   articles:
       - environments-to-organize-workloads-and-users.md
       - main-cloudmc-entities.md
-      - what-is-a-vpc.md
+#      - what-is-a-vpc.md
 #      - what-is-object-storage.md
       - authentication.md
 - category: reseller
@@ -21,6 +21,7 @@ categories:
 #      - guide-for-resellers.md
       - custom-domains.md
       - manage-kb.md
+      - branding.md
 #- category: cloudstack-compute-service
 #  icon: fa fa-cloud
 #  articles:
@@ -54,6 +55,10 @@ categories:
       - stackpath-overview-workloads.md
       - stackpath-managing-workloads.md
 #      - stackpath-working-with-instances.md
+- category: macrometa-service
+  icon: fa fa-cloud
+  articles:
+     - macrometa-overview.md
 #- category: object-storage-service
 #  icon: fa fa-hdd-o
 #  articles:
@@ -74,7 +79,6 @@ categories:
       - enable-two-factor-authentication.md
 #      - single-entrypoint.md
       - display-dates-in-your-preferred-time-zone.md
-      - branding.md
       - manage-users.md
       - rbac.md
       - rbac-use-cases-basic.md
@@ -84,10 +88,10 @@ categories:
   icon: fa fa-question
   articles:
 #      - create-site-to-site-vpn-on-vpc.md
-      - install-and-config-cloudmonkey.md
+#      - install-and-config-cloudmonkey.md
       - kernel-upgrade-on-ubuntu-debian.md
 #      - move-instance-to-different-vpc.md
-      - force-reboot-an-instance.md
+#      - force-reboot-an-instance.md
 #- category: automation
 #  icon: fa fa-retweet
 #  articles:
