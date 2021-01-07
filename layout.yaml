@@ -13,7 +13,6 @@ categories:
       - main-cloudmc-entities.md
 #      - what-is-a-vpc.md
 #      - what-is-object-storage.md
-      - authentication.md
 - category: reseller
   icon: fa fa-handshake-o
   featured: true
@@ -22,6 +21,7 @@ categories:
       - custom-domains.md
       - manage-kb.md
       - branding.md
+      - authentication.md
 #- category: cloudstack-compute-service
 #  icon: fa fa-cloud
 #  articles:
