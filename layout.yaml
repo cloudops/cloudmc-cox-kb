@@ -3,7 +3,7 @@ categories:
   icon: fa fa-info-circle
   articles:
       - cloud.ca-in-a-nutshell.md
-      - 10-noteworthy-improvements-in-the-new-cloud-ca-portal.md
+#      - 10-noteworthy-improvements-in-the-new-cloud-ca-portal.md
       - need-more-help.md
 - category: basic-concepts
   icon: fa fa-globe
@@ -89,7 +89,7 @@ categories:
   articles:
 #      - create-site-to-site-vpn-on-vpc.md
 #      - install-and-config-cloudmonkey.md
-      - kernel-upgrade-on-ubuntu-debian.md
+#      - kernel-upgrade-on-ubuntu-debian.md
 #      - move-instance-to-different-vpc.md
 #      - force-reboot-an-instance.md
 #- category: automation
@@ -98,10 +98,10 @@ categories:
 #      - deploy-virtual-machine-using-terraform.md
 #      - deploy-virtual-machine-using-cloudmonkey.md
 #      - deploy-a-kubernetes-cluster-with-rancher-2-x.md
-- category: vpn
-  icon: fa fa-shield
-  articles:
-      - cca-using-remote-access.md
-      - cca-client-config-mac.md
-      - cca-client-config-windows.md
-      - cca-client-config-ubuntu.md
+#- category: vpn
+#  icon: fa fa-shield
+#  articles:
+#      - cca-using-remote-access.md
+#      - cca-client-config-mac.md
+#      - cca-client-config-windows.md
+#      - cca-client-config-ubuntu.md
