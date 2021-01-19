@@ -34,7 +34,9 @@ Any user with the **User** role, or any other role which has the *Environments: 
    - Add no users to your environment (click *Skip* to proceed to the next page)
 1. For any users you've added, select an environment role.  If you've enabled auto-membership, select a default environment role.
 1. Click *Apply* to commit the selected members.  The users will be added.
-1. For some services, the *Initialize environment* page will appear next. The items on this page are specific to the service where the environment is being created. It is safe to click *Skip* and configure the environment later.  <!-- This needs to be moved to a CloudStack article: Here, you may:
+1. For some services, the *Initialize environment* page will appear next. The items on this page are specific to the service where the environment is being created. It is safe to click *Skip* and configure the environment later.
+
+<!-- This needs to be moved to a CloudStack article: Here, you may:
    - Configure an isolated network with no access to any other subnet, nor to the public Internet
    - Configure one, two, or three VPCs.  See [What is a VPC](what-is-a-vpc.md) for more information on VPCs
    - Configure no network (click *Skip* to finish creating the environment)
