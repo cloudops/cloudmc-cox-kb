@@ -1,3 +1,0 @@
----
-name:  Guide for Resellers
----
