@@ -3,7 +3,6 @@ categories:
   icon: fa fa-info-circle
   articles:
       - cloud.ca-in-a-nutshell.md
-#      - 10-noteworthy-improvements-in-the-new-cloud-ca-portal.md
       - need-more-help.md
 - category: basic-concepts
   icon: fa fa-globe
@@ -11,73 +10,24 @@ categories:
   articles:
       - environments-to-organize-workloads-and-users.md
       - main-cloudmc-entities.md
-#      - what-is-a-vpc.md
-#      - what-is-object-storage.md
-- category: reseller
-  icon: fa fa-handshake-o
-  featured: true
-  articles:
-#      - guide-for-resellers.md
-      - custom-domains.md
-      - manage-kb.md
-      - branding.md
-      - authentication.md
-#- category: cloudstack-compute-service
-#  icon: fa fa-cloud
-#  articles:
-#      - working-with-instances.md
-#      - add-storage-to-instance.md
-#      - working-with-ssh-keys.md
-#      - configure-load-balancing.md
-#      - configure-port-forwarding.md
-#      - securing-your-network.md
-#      - working-with-vpcs.md
-#      - working-with-cloudstack-compute-apis.md
-#      - working-with-snapshots.md
-#      - working-with-instance-templates.md
-#- category: gcp-compute-service
-#  icon: fa fa-cloud
-#  articles:
-#      - gcp-working-with-instances.md
-#      - gcp-working-with-disks.md
-#      - gcp-instance-groups.md
-#      - gcp-health-check.md
-#      - gcp-ssl-certs.md
-#      - gcp-load-balancing.md
-#- category: azure-compute-service
-#  icon: fa fa-cloud
-#  articles:
-#      - azure-working-with-instances.md
-#      - azure-working-with-disks.md
-- category: stackpath-service
+- category: edge-compute-service
   icon: fa fa-cloud
   articles:
-      - stackpath-overview-workloads.md
-      - stackpath-managing-workloads.md
+      - edge-compute-overview-workloads.md
+      - edge-compute-managing-workloads.md
 #      - stackpath-working-with-instances.md
-- category: macrometa-service
+- category: serverless-databases-service
   icon: fa fa-cloud
   articles:
-     - macrometa-overview.md
-#- category: object-storage-service
-#  icon: fa fa-hdd-o
-#  articles:
-#      - object-storage-terminology.md
-#      - use-s3-api-for-object-storage.md
-#      - how-to-obtain-object-storage-api-credentials.md
-#      - manage-my-objects-using-the-swift-command-line-client.md
-#      - manage-my-objects-using-the-object-storage-api.md
-#      - manage-my-objects-using-the-self-service-portal.md
+     - serverless-databases-overview.md
 - category: reporting
   icon: fa fa-signal
   articles:
       - generate-a-usage-report.md
-#      - dashboard.md
 - category: administration
   icon: fa fa-wrench
   articles:
       - enable-two-factor-authentication.md
-#      - single-entrypoint.md
       - display-dates-in-your-preferred-time-zone.md
       - manage-users.md
       - rbac.md
@@ -87,21 +37,3 @@ categories:
 - category: how-to
   icon: fa fa-question
   articles:
-#      - create-site-to-site-vpn-on-vpc.md
-#      - install-and-config-cloudmonkey.md
-#      - kernel-upgrade-on-ubuntu-debian.md
-#      - move-instance-to-different-vpc.md
-#      - force-reboot-an-instance.md
-#- category: automation
-#  icon: fa fa-retweet
-#  articles:
-#      - deploy-virtual-machine-using-terraform.md
-#      - deploy-virtual-machine-using-cloudmonkey.md
-#      - deploy-a-kubernetes-cluster-with-rancher-2-x.md
-#- category: vpn
-#  icon: fa fa-shield
-#  articles:
-#      - cca-using-remote-access.md
-#      - cca-client-config-mac.md
-#      - cca-client-config-windows.md
-#      - cca-client-config-ubuntu.md
