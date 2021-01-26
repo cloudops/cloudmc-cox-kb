@@ -1,6 +1,6 @@
 ---
-title: "Macrometa Service: Overview"
-slug: macrometa-overview
+title: "Serverless Databases: Overview"
+slug: serverless-databases-overview
 ---
 
 
