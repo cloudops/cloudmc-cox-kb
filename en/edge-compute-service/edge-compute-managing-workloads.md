@@ -1,14 +1,14 @@
 ---
-title: "StackPath Service:  Managing workloads"
-slug: stackpath-managing-workloads
+title: "Managing Cox Edge Compute workloads"
+slug: edge-compute-managing-workloads
 ---
 
 
 <!-- General note:  UI changes have been made for hiding the optional attributes as well as for displaying the Anycast IP.  I need to go back and update the articles for these changes, both languages. -->
 
-To create, modify, or delete a StackPath workload, an account with the *User* role must be a member of the environment which contains the workload, and also have the *Editor* or *Owner* environment role assigned.  An account with the *Administrator* role or higher may create, modify, or delete workloads in any environment.
+To create, modify, or delete a Cox Edge Compute workload, an account with the *User* role must be a member of the environment which contains the workload, and also have the *Editor* or *Owner* environment role assigned.  An account with the *Administrator* role or higher may create, modify, or delete workloads in any environment.
 
-To access workloads, navigate to your StackPath environment and click on the **Workloads** tab.
+To access workloads, navigate to your Cox Edge Compute environment and click on the **Workloads** tab.
 
 ### Add a workload
 
@@ -33,19 +33,19 @@ To access workloads, navigate to your StackPath environment and click on the **W
 1. Select the VPC to use for deploying the workload.
    - At this time, workloads are created only in the default VPC.
 1. If an Anycast IP address is desired, mark the checkbox labeled *Add Anycast IP address*.
-1. If the public ports that the application will need are known, they can be specified by checking the box labeled *Add public port*, and filling in the fields that appear.  StackPath will create the network policies on your behalf at the time of deployment.  These can be edited at any time after the workload is deployed.
+1. If the public ports that the application will need are known, they can be specified by checking the box labeled *Add public port*, and filling in the fields that appear.  Cox Edge Compute will create the network policies on your behalf at the time of deployment.  These can be edited at any time after the workload is deployed.
 
 #### Initial startup configuration
 
 1. If the type of workload is **Virtual machine**, at least one public key must be specified in the field labeled *First boot SSH key(s)*.  The key (or keys) will be automatically installed for the default user account in virtual machines created for this workload.
-   - When connecting to the VMs via SSH, specify the private key that corresponds to the public key pasted here.  To find default usernames used by StackPath, see [Add Users to a Virtual Machine](https://support.stackpath.com/hc/en-us/articles/360025308732-Add-Users-to-a-Virtual-Machine).  Password-based login is not supported.
+   - When connecting to the VMs via SSH, specify the private key that corresponds to the public key pasted here.  To find default usernames used by Cox Edge Compute, see [Add Users to a Virtual Machine](https://support.stackpath.com/hc/en-us/articles/360025308732-Add-Users-to-a-Virtual-Machine).  Password-based login is not supported. <!-- This is important info but needs to be put into a Cox-branded page -->
 1. If the type of workload is **Container**, the text field labeled **Commands** may be used to specify commands to execute when the container starts. <!-- Docs say that multiple commands can be given, how are they separated, semi-colon? Comma-separated?  The API docs seem to indicate an array. -->
 
 #### Compute and storage options
 
 1. Select the compute and memory offering to be allocated for the workload from the popup menu labeled *Spec*.  The offering will be uniform for all VMs or containers deployed in all PoPs for this workload.
 1. An additional storage volume may be attached to each instance or container:
-   - Enter a path (such as `/data`) in the field labeled *Persistent storage path*.  At the time of deployment, StackPath will create a disk and the specified path will be used as the mountpoint inside the VM or container.
+   - Enter a path (such as `/data`) in the field labeled *Persistent storage path*.  At the time of deployment, Cox Edge Compute will create a disk and the specified path will be used as the mountpoint inside the VM or container.
    - Select the desired size for the persistent volume using the slider labeled *Persistent storage size*.
 
 #### Deployment name and target locations
@@ -57,7 +57,7 @@ To access workloads, navigate to your StackPath environment and click on the **W
 
 1. Select the number of VMs or containers to deploy in each PoP using the slider labeled *Instances per PoPs*.
 1. Alternatively, auto-scaling may be used in lieu of a static number of VMs or containers.  Check the box labeled *Enable auto scaling* and select the desired values for the criteria to trigger auto-scaling using the three sliders that appear:
-   - *CPU utilization*: StackPath will monitor the CPU utilization of each instance or container.  When utilization exceeds the specified threshold, a new VM or container will be deployed to absorb the increased load.  When CPU utilization drops to 10% below this threshold or lower, StackPath will scale down instances after 5 minutes have passed since the last auto-scaling event.
+   - *CPU utilization*: Cox Edge Compute will monitor the CPU utilization of each instance or container.  When utilization exceeds the specified threshold, a new VM or container will be deployed to absorb the increased load.  When CPU utilization drops to 10% below this threshold or lower, Cox Edge Compute will scale down instances after 5 minutes have passed since the last auto-scaling event.
    - *Min instances per PoP*: The minimum number of VMs or containers to have deployed at any time.
    - *Max instances per PoP*: The maximum number of VMs or containers to deploy when scaling up.
 
@@ -67,9 +67,9 @@ Once all options have been selected, click *Submit*. The **Workloads** tab will 
 
 All workloads are listed in the **Workloads** tab.  Clicking on an entry will display the *Workload Details* page, which lists the attributes for the selected workload.
 
-Clicking on the **Instances** item will present the *Instances* page, where all VMs or containers for the workload are listed.  See [Stackpath: Working with instances](stackpath-working-with-instances.md).
+Clicking on the **Instances** item will present the *Instances* page, where all VMs or containers for the workload are listed.  <!-- See [Stackpath: Working with instances](stackpath-working-with-instances.md). -->
 
-Clicking on the **Network policies** item will present the *Network policies* page, where all inbound and outbound rules for this workload appear.  See [Stackpath: Network policies](stackpath-network-policies.md).
+Clicking on the **Network policies** item will present the *Network policies* page, where all inbound and outbound rules for this workload appear.  <!-- See [Stackpath: Network policies](stackpath-network-policies.md). -->
 
 ### Edit a workload
 
@@ -87,6 +87,8 @@ Deleting a workload will destroy all instances, containers, network policies, an
 1. A dialogue box will appear, asking for confirmation to delete the workload.  Click *Submit*.
 1. The workload will change to the **Disabled** state.  When the workload has been deleted, it will disappear from the **Workloads** tab.
 
-### External links
+<!-- ### External links
 
 [Add Users to a Virtual Machine](https://support.stackpath.com/hc/en-us/articles/360025308732-Add-Users-to-a-Virtual-Machine)
+
+-->
