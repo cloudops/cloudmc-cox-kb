@@ -2,14 +2,14 @@ categories:
 - category: general
   icon: fa fa-info-circle
   articles:
-      - cloud.ca-in-a-nutshell.md
+      - general-portal-in-a-nutshell.md
       - need-more-help.md
 - category: basic-concepts
   icon: fa fa-globe
   featured: true
   articles:
       - environments-to-organize-workloads-and-users.md
-      - main-cloudmc-entities.md
+      - main-general-portal-entities.md
 - category: edge-compute-service
   icon: fa fa-cloud
   articles:
@@ -33,7 +33,7 @@ categories:
       - rbac.md
       - rbac-use-cases-basic.md
       - rbac-use-cases-advanced.md
-      - openid-connect.md
+#      - openid-connect.md
 - category: how-to
   icon: fa fa-question
   articles:
