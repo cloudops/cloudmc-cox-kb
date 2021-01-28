@@ -93,7 +93,7 @@ Environment roles are assigned to a user when adding members to an environment:
 1. Select *Manage members*.
 1. In the following page, enter the name of the user to add in the text box labeled *Add member to environment*.
 
-![edit environment members page](/assets/rbac-list_of_env_roles-en.png)
+<!-- Commented out until plugin is rebranded ![edit environment members page](/assets/rbac-list_of_env_roles-en.png) -->
 
 ### See also
 
