@@ -1,13 +1,13 @@
 ---
-title:  "CloudMC in a nutshell"
-slug: cloudmc-in-a-nutshell
+title:  "The General Portal in a nutshell"
+slug: general-portal-in-a-nutshell
 ---
 
-### What is CloudMC?
+### What is the General Portal?
 
-CloudMC is a cloud edge orchestration platform. It delivers scalable, secure, high-performance, cost-effective, and resilient cloud services.
+The General Portal is a cloud edge orchestration platform. It delivers scalable, secure, high-performance, cost-effective, and resilient cloud services.
 
-### Why CloudMC?
+### Why Cox General Portal?
 
 - **Speed your innovation**  − On demand, self-service platform for DevOps, with complete API automation for continuous delivery
 - **Usage and cost transparency**  − Granular metering and reporting make governance without bureaucracy possible

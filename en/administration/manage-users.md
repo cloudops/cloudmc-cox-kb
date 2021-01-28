@@ -4,7 +4,7 @@ slug: manage-users
 ---
 
 
-You can provide CloudMC access to multiple users in your organization. By default, users with the role *Org. Admin* can create new user accounts.
+You can provide General Portal access to multiple users in your organization. By default, users with the role *Org. Admin* can create new user accounts.
 1. In the Configuration menu, click **Users**.
 1. Click **Add user**.
 1. In the Identification section, type a **First name**, **Last name**, **Email address**, and **Username**, and select a **Language**.

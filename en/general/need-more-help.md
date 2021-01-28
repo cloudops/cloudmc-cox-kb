@@ -4,8 +4,13 @@ slug: need-more-help
 ---
 
 
-You couldn't find what you were looking for in these help articles or you hit a snag? Be sure to let us know and we can help you with your request.
 
-Simply click on the ![Ambulance](/assets/ambulance.png) icon in the sidebar and provide the requested information to open a support ticket.
+You couldn't find what you were looking for in these help articles or you hit a snag? Be sure to let us know and we can help you with your request.  Simply go to the Help menu at the top of the page, and click on *Contact support*:
 
-Our Support team will provide a response as soon as possible. During business hours (Monday to Friday, 9 AM to 5 PM ET), you can also phone 1-855-OK-CLOUD/1-855-652-5683 (Option 2) for support.
+![Help menu](/assets/need-more-help-1-en.png)
+
+You'll be taken to a new tab where you can open a support ticket:
+
+![Contact Support page](/assets/need-more-help-2-en.png)
+
+Provide a short description of the problem in the field named **Title**, the level of impact to your service in the **Priority** field, and in the **Description** field a clear statement of the problem as well as the desired outcome.  Our support team will provide a response as soon as possible.
