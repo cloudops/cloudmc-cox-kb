@@ -1,6 +1,6 @@
 categories:
 - category: general
-  icon: fa fa-info-circle
+  icon: fa fa-cloud
   articles:
       - general-portal-in-a-nutshell.md
       - need-more-help.md
