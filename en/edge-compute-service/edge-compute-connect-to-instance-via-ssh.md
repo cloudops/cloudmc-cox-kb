@@ -6,13 +6,13 @@ slug: edge-compute-connect-to-instance-via-ssh
 
 An instance in a Cox Edge Compute workload of type VM may be reached using a standard SSH client.
 
-### Prerequisites
+## Prerequisites
 
 1. You must have the private key counterpart of the public key that was used when the VM was created.  The private key was generated with the public key, and is usually a file that begins with the string `-----BEGIN RSA PRIVATE KEY-----`.
 1. There must be an inbound network rule in *Network policies* for this workload, allowing TCP traffic originating from the IP that you are connecting from, on port 22.
 1. You must know the default username for the operating system running on the VM.  See *List of default usernames* below.
 
-### Connect to the instance
+## Connect to the instance
 
 #### Identify the IP address
 
@@ -50,7 +50,7 @@ This a generic procedure for using a Windows SSH client.  See the user manual fo
 1. Click **Connect** or **Open**.
 1. You should now be connected to the VM and see a window with a command prompt.  If root privileges are required, use the command `sudo -i` to get a root shell.
 
-### List of default usernames
+## List of default usernames
 
 | OS name | Default username |
 | --- | --- |
