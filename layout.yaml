@@ -15,6 +15,7 @@ categories:
   articles:
       - edge-compute-overview-workloads.md
       - edge-compute-managing-workloads.md
+      - edge-compute-connect-to-instance-via-ssh.md
 #      - stackpath-working-with-instances.md
 - category: serverless-databases-service
   icon: fa fa-cloud
