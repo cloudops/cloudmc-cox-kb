@@ -24,14 +24,14 @@ An instance in a Cox Edge Compute workload of type VM may be reached using a sta
 
 #### Standard Unix command line SSH client
 
-The private key should be present in your `.ssh` directory.  The file containing the private key must have permissions of `0644`.  To set the correct permissions, use the command `chmod 644 <filename>`.
+The private key should be present in your `~/.ssh` directory.  The file containing the private key must have permissions of `0644`.  To set the correct permissions, use the command `chmod 644 <filename>`.
 
 The general form for using a private key to connect to a remote host via SSH is: `ssh -i <keyfile> username@IP`. The key must be specified with a path if the key is not in the current working directory.
 
 For example, if connecting to an Ubuntu instance at 151.139.189.1, and the key file is in `.ssh/my.key`, use the following command:
 
 ```
-ssh -i .ssh/my.key ubuntu@151.139.189.1
+ssh -i ~/.ssh/my.key ubuntu@151.139.189.1
 ```
 
 You should now be connected to the VM and see a command prompt.  If root privileges are required, use the command `sudo -i` to get a root shell.
