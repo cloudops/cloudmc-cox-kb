@@ -28,7 +28,7 @@ The private key should be present in your `~/.ssh` directory.  The file containi
 
 The general form for using a private key to connect to a remote host via SSH is: `ssh -i <keyfile> username@IP`. The key must be specified with a path if the key is not in the current working directory.
 
-For example, if connecting to an Ubuntu instance at 151.139.189.1, and the key file is in `.ssh/my.key`, use the following command:
+For example, if connecting to an Ubuntu instance at 151.139.189.1, and the key file is in `~/.ssh/my.key`, use the following command:
 
 ```
 ssh -i ~/.ssh/my.key ubuntu@151.139.189.1
