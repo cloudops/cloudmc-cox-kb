@@ -20,21 +20,17 @@ An instance in a Cox Edge Compute workload of type VM may be reached using a sta
 1. Click on the workload to see its details.
 1. Click on the *Instances* item on the left.  A list of the instances deployed in the workload will appear.
 1. Identify the desired instance, and note its public IP address in the list.  Clicking directly on the IP address will copy it to your clipboard.
-1. You are now ready to connect to the instance.  The procedure is different when using a standard Unix command line client versus a Windows SSH client.
+1. You are now ready to connect to the instance.  The procedure is different when using a standard Unix command line client (this includes macOS) versus a Windows SSH client.
 
-#### Standard Unix command line SSH client
+#### Standard Unix command line SSH client (including macOS)
 
-The private key should be present in your `~/.ssh` directory.  The file containing the private key must have permissions of `0644`.  To set the correct permissions, use the command `chmod 644 <filename>`.
-
-The general form for using a private key to connect to a remote host via SSH is: `ssh -i <keyfile> username@IP`. The key must be specified with a path if the key is not in the current working directory.
-
-For example, if connecting to an Ubuntu instance at 151.139.189.1, and the key file is in `~/.ssh/my.key`, use the following command:
-
-```
-ssh -i ~/.ssh/my.key ubuntu@151.139.189.1
-```
-
-You should now be connected to the VM and see a command prompt.  If root privileges are required, use the command `sudo -i` to get a root shell.
+1. Begin by opening a terminal window.
+1. The private key should be present in your `~/.ssh` directory.  The file containing the private key must have permissions of `0644`.  To set the correct permissions, use the command `chmod 644 <filename>`.
+1. The general form for using a private key to connect to a remote host via SSH is: `ssh -i <keyfile> username@IP`. The key must be specified with a path if the key is not in the current working directory.  For example, if connecting to an Ubuntu instance at 151.139.189.1, and the key file is in `~/.ssh/my.key`, use the following command:
+   ```
+   ssh -i ~/.ssh/my.key ubuntu@151.139.189.1
+   ```
+1. You should now be connected to the VM and see a command prompt.  If root privileges are required, use the command `sudo -i` to get a root shell.
 
 #### Windows SSH client
 
