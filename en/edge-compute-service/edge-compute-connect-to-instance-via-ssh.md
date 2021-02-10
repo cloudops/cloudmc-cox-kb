@@ -31,7 +31,7 @@ The general form for using a private key to connect to a remote host via SSH is:
 For example, if connecting to an Ubuntu instance at 151.139.189.1, and the key file is in `.ssh/my.key`, use the following command:
 
 ```
-ssh -i my.key ubuntu@151.139.189.1
+ssh -i .ssh/my.key ubuntu@151.139.189.1
 ```
 
 You should now be connected to the VM and see a command prompt.  If root privileges are required, use the command `sudo -i` to get a root shell.
