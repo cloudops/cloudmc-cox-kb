@@ -38,9 +38,7 @@ You should now be connected to the VM and see a command prompt.  If root privile
 
 #### Windows SSH client
 
-This a generic procedure for using a Windows SSH client.  See the user manual for your SSH client for the exact procedure.
-
-**Note:** When connecting to your instance with a Windows SSH client, it may be necessary to first convert the private key and then install the key into the client.  See the user manual for your SSH client for details on configuring SSH keys.
+This a generic procedure for using a Windows SSH client.  It may be necessary to first convert the private key and then install the key into the client.  See the user manual for your SSH client for the exact procedure.
 
 1. Open a new connection in your SSH client.
 1. Select **SSH** as the connection type.
