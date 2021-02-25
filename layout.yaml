@@ -7,9 +7,6 @@ categories:
       - need-more-help.md
       - environments-to-organize-workloads-and-users.md
       - main-general-portal-entities.md
-- category: basic-concepts
-  icon: fa fa-globe
-  articles:
 - category: edge-compute-service
   icon: fa fa-cloud
   articles:
