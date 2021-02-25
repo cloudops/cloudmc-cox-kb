@@ -1,15 +1,15 @@
 categories:
 - category: general
   icon: fa fa-cloud
+  featured: true
   articles:
       - general-portal-in-a-nutshell.md
       - need-more-help.md
-- category: basic-concepts
-  icon: fa fa-globe
-  featured: true
-  articles:
       - environments-to-organize-workloads-and-users.md
       - main-general-portal-entities.md
+- category: basic-concepts
+  icon: fa fa-globe
+  articles:
 - category: edge-compute-service
   icon: fa fa-cloud
   articles:
