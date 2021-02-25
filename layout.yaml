@@ -16,8 +16,6 @@ categories:
 #      - stackpath-working-with-instances.md
 - category: serverless-databases-service
   icon: fa fa-cloud
-  articles:
-     - serverless-databases-overview.md
 - category: reporting
   icon: fa fa-signal
   articles:
