@@ -13,6 +13,8 @@ categories:
       - edge-compute-overview-workloads.md
       - edge-compute-managing-workloads.md
       - edge-compute-connect-to-instance-via-ssh.md
+      - stackpath-sites-overview.md
+      - stackpath-sites-cdn-features.md
 #      - stackpath-working-with-instances.md
 - category: serverless-databases-service
   icon: fa fa-cloud
@@ -33,3 +35,4 @@ categories:
 - category: how-to
   icon: fa fa-question
   articles:
+#      - how-to-cloudmc-api-key.md
